@@ -18,30 +18,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="equalSpacing" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="juU-XH-KHN">
-                                <rect key="frame" x="20" y="28" width="343" height="637"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="juU-XH-KHN">
+                                <rect key="frame" x="16" y="20" width="258" height="596"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9k1-Mj-joZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="264" height="145"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="258" height="106"/>
                                         <color key="backgroundColor" red="1" green="0.070224620789999997" blue="0.2330920746" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
                                     <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v5b-Fu-d00">
-                                        <rect key="frame" x="0.0" y="245" width="343" height="67"/>
+                                        <rect key="frame" x="0.0" y="156" width="258" height="211"/>
                                         <color key="backgroundColor" red="0.6198196856" green="1" blue="0.02877357665" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
                                     <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zx5-kF-lQq">
-                                        <rect key="frame" x="0.0" y="412" width="343" height="225"/>
+                                        <rect key="frame" x="0.0" y="417" width="258" height="179"/>
                                         <color key="backgroundColor" red="0.29756582399999998" green="0.051779747530000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="596" id="Lo2-Oo-5eq"/>
+                                    <constraint firstAttribute="width" constant="258" id="Q9X-dg-fbU"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="juU-XH-KHN" secondAttribute="trailing" id="YeU-kh-hh1"/>
                             <constraint firstItem="juU-XH-KHN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="kwL-Gh-G8r"/>
                             <constraint firstItem="juU-XH-KHN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="pqU-TX-R44"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="juU-XH-KHN" secondAttribute="bottom" constant="10" id="syu-pC-Kgu"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
